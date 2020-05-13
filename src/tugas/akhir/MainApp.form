@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbIsidata" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Component id="colon8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="lbAntrian" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lbTanggal" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="lbJampraktek" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="colon5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="cbTgl" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="slash" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cbBln" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="slash1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="tahun" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="colon6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="cbJampraktek" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="wib" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="bDaftar" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="bHapus" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Component id="lbNama" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                  <Component id="lbJeniskelamin" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbAlamat" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbNoid" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="lbKeluhan" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="colon2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="inputAlamat" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="colon3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="cbJeniskelamin" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="colon1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="getNoid" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="colon4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="inputKeluhan" min="-2" pref="230" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="colon" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="getNama" min="-2" pref="230" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" pref="859" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="ketTabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jScrollPane1" min="-2" pref="326" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="ketTabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lbIsidata" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="colon8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbAntrian" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbNama" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="colon" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="getNama" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="lbNoid" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="colon1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="getNoid" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbAlamat" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="colon2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="inputAlamat" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbJeniskelamin" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="colon3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbJeniskelamin" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbKeluhan" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="colon4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="inputKeluhan" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cbTgl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="colon5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="slash" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbBln" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="slash1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tahun" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbTanggal" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="colon6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbJampraktek" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbJampraktek" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="wib" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bDaftar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="bHapus" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lbNama">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nama"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="colon">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbNoid">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="No. ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="colon1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="getNama">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="getNamaActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="getNoid">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="getNoidActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbAlamat">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Alamat"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="colon2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbJeniskelamin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jenis Kelamin"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="colon3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="inputAlamat">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbJeniskelamin">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="--"/>
+            <StringItem index="1" value="Pria"/>
+            <StringItem index="2" value="Wanita"/>
+            <StringItem index="3" value="Belum Diketahui"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbKeluhan">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Keluhan"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="colon4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbIsidata">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Isi Kelengkapan Data :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbTanggal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tanggal"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="colon5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbTgl">
+      <Properties>
+        <Property name="maximumRowCount" type="int" value="31"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="31">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+            <StringItem index="7" value="8"/>
+            <StringItem index="8" value="9"/>
+            <StringItem index="9" value="10"/>
+            <StringItem index="10" value="11"/>
+            <StringItem index="11" value="12"/>
+            <StringItem index="12" value="13"/>
+            <StringItem index="13" value="14"/>
+            <StringItem index="14" value="15"/>
+            <StringItem index="15" value="16"/>
+            <StringItem index="16" value="17"/>
+            <StringItem index="17" value="18"/>
+            <StringItem index="18" value="19"/>
+            <StringItem index="19" value="20"/>
+            <StringItem index="20" value="21"/>
+            <StringItem index="21" value="22"/>
+            <StringItem index="22" value="23"/>
+            <StringItem index="23" value="24"/>
+            <StringItem index="24" value="25"/>
+            <StringItem index="25" value="26"/>
+            <StringItem index="26" value="27"/>
+            <StringItem index="27" value="28"/>
+            <StringItem index="28" value="29"/>
+            <StringItem index="29" value="30"/>
+            <StringItem index="30" value="31"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="slash">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="/"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbBln">
+      <Properties>
+        <Property name="maximumRowCount" type="int" value="12"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="12">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+            <StringItem index="7" value="8"/>
+            <StringItem index="8" value="9"/>
+            <StringItem index="9" value="10"/>
+            <StringItem index="10" value="11"/>
+            <StringItem index="11" value="12"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="slash1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="/"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="bDaftar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Daftar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bDaftarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbJampraktek">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jam Praktek"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="colon6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tahun">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2020"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="inputKeluhan">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbJampraktek">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="--"/>
+            <StringItem index="1" value="10.00-12.00"/>
+            <StringItem index="2" value="14.00-16.00"/>
+            <StringItem index="3" value="18.00-20.00"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="wib">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="WIB"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="bHapus">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hapus"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bHapusActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tablePasien">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="9" rowCount="0">
+                <Column editable="true" title="Nomor" type="java.lang.Object"/>
+                <Column editable="true" title="Nama" type="java.lang.Object"/>
+                <Column editable="true" title="No. ID" type="java.lang.Object"/>
+                <Column editable="true" title="Alamat" type="java.lang.Object"/>
+                <Column editable="true" title="Jenis Kelamin" type="java.lang.Object"/>
+                <Column editable="true" title="Keluhan" type="java.lang.Object"/>
+                <Column editable="true" title="Tanggal" type="java.lang.Object"/>
+                <Column editable="true" title="Bulan" type="java.lang.Object"/>
+                <Column editable="true" title="Jam Praktek" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tablePasienMouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="No. Antrian"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="colon8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbAntrian">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ketTabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="*klik baris pada tabel untuk mengeprint struk antrian"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
