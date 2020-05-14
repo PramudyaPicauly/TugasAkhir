@@ -232,7 +232,7 @@ public class MainApp extends javax.swing.JFrame {
         getContentPane().add(ketTabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(386, 351, -1, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon("D:\\Teknik Komputer 2019\\2. TUGAS\\Praktikum DKP\\Untitled-2.png")); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1260, 410));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1260, 390));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

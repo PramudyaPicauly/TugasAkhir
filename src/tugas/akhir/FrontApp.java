@@ -46,35 +46,35 @@ public class FrontApp extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        lJudul.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        lJudul.setFont(new java.awt.Font("Adobe Garamond Pro", 1, 24)); // NOI18N
         lJudul.setForeground(new java.awt.Color(255, 255, 255));
         lJudul.setText("SELAMAT DATANG DI RUMAH PRAKTEK");
-        getContentPane().add(lJudul, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 120, -1, -1));
+        getContentPane().add(lJudul, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 170, -1, -1));
 
         lPendaftaran.setForeground(new java.awt.Color(255, 255, 255));
         lPendaftaran.setText("Pendaftaran :");
-        getContentPane().add(lPendaftaran, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 200, -1, -1));
+        getContentPane().add(lPendaftaran, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 250, -1, -1));
 
         jNama.setForeground(new java.awt.Color(255, 255, 255));
         jNama.setText("Nama :");
-        getContentPane().add(jNama, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 240, -1, -1));
+        getContentPane().add(jNama, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 290, -1, -1));
 
         jNoid.setForeground(new java.awt.Color(255, 255, 255));
         jNoid.setText("No. ID:");
-        getContentPane().add(jNoid, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 280, -1, -1));
+        getContentPane().add(jNoid, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 330, -1, -1));
 
         inputNama.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 inputNamaActionPerformed(evt);
             }
         });
-        getContentPane().add(inputNama, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 240, 200, -1));
-        getContentPane().add(inputNoid, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 280, 200, -1));
+        getContentPane().add(inputNama, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 290, 200, -1));
+        getContentPane().add(inputNoid, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 330, 200, -1));
 
         ketNoid.setFont(new java.awt.Font("Tahoma", 0, 11)); // NOI18N
         ketNoid.setForeground(new java.awt.Color(255, 255, 255));
         ketNoid.setText("*No. ID dapat menggunakan BPJS, Kartu Member, KTP dsb.");
-        getContentPane().add(ketNoid, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 320, -1, -1));
+        getContentPane().add(ketNoid, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 370, -1, -1));
 
         bDaftar.setText("Masuk");
         bDaftar.addActionListener(new java.awt.event.ActionListener() {
@@ -82,15 +82,15 @@ public class FrontApp extends javax.swing.JFrame {
                 bDaftarActionPerformed(evt);
             }
         });
-        getContentPane().add(bDaftar, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 280, -1, -1));
+        getContentPane().add(bDaftar, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 330, -1, -1));
 
-        lJudul1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        lJudul1.setFont(new java.awt.Font("Adobe Garamond Pro", 1, 36)); // NOI18N
         lJudul1.setForeground(new java.awt.Color(255, 255, 255));
         lJudul1.setText("DR. STRANGE");
-        getContentPane().add(lJudul1, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 160, -1, -1));
+        getContentPane().add(lJudul1, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 200, -1, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon("D:\\Teknik Komputer 2019\\2. TUGAS\\Praktikum DKP\\Untitled-1.png")); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 911, 550));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 911, 520));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
