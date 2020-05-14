@@ -62,63 +62,117 @@ public class PrintApp extends javax.swing.JFrame {
         ketJam = new javax.swing.JLabel();
         realTime = new javax.swing.JLabel();
         printAntrian = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
 
         printNama3.setText("-");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        printNama.setForeground(new java.awt.Color(255, 255, 255));
         printNama.setText("-");
+        getContentPane().add(printNama, new org.netbeans.lib.awtextra.AbsoluteConstraints(135, 54, -1, -1));
 
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Nama");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 54, -1, -1));
 
         lbTiket.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        lbTiket.setForeground(new java.awt.Color(255, 255, 255));
         lbTiket.setText("Tiket Antrian No.");
+        getContentPane().add(lbTiket, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 16, -1, -1));
 
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("No. ID");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 83, -1, -1));
 
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Alamat");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 112, -1, -1));
 
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Jenis Kelamin");
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 141, -1, -1));
 
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Keluhan");
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 170, -1, -1));
 
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Tanggal");
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 199, -1, -1));
 
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Jam Praktek");
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 228, -1, -1));
 
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText(":");
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 141, -1, -1));
 
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText(":");
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 112, -1, -1));
 
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText(":");
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 83, -1, -1));
 
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText(":");
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 54, -1, -1));
 
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setText(":");
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 170, -1, -1));
 
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText(":");
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 199, -1, -1));
 
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
         jLabel14.setText(":");
+        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 228, -1, -1));
 
+        printNoid.setForeground(new java.awt.Color(255, 255, 255));
         printNoid.setText("-");
+        getContentPane().add(printNoid, new org.netbeans.lib.awtextra.AbsoluteConstraints(135, 83, -1, -1));
 
+        printAlamat.setForeground(new java.awt.Color(255, 255, 255));
         printAlamat.setText("-");
+        getContentPane().add(printAlamat, new org.netbeans.lib.awtextra.AbsoluteConstraints(135, 112, -1, -1));
 
+        printKeluhan.setForeground(new java.awt.Color(255, 255, 255));
         printKeluhan.setText("-");
+        getContentPane().add(printKeluhan, new org.netbeans.lib.awtextra.AbsoluteConstraints(135, 170, -1, -1));
 
+        printJk.setForeground(new java.awt.Color(255, 255, 255));
         printJk.setText("-");
+        getContentPane().add(printJk, new org.netbeans.lib.awtextra.AbsoluteConstraints(135, 141, -1, -1));
 
+        printTgl.setForeground(new java.awt.Color(255, 255, 255));
         printTgl.setText("-");
+        getContentPane().add(printTgl, new org.netbeans.lib.awtextra.AbsoluteConstraints(135, 199, -1, -1));
 
+        slash.setForeground(new java.awt.Color(255, 255, 255));
         slash.setText("/");
+        getContentPane().add(slash, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 199, -1, -1));
 
+        slash1.setForeground(new java.awt.Color(255, 255, 255));
         slash1.setText("/");
+        getContentPane().add(slash1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 199, -1, -1));
 
+        printBln.setForeground(new java.awt.Color(255, 255, 255));
         printBln.setText("-");
+        getContentPane().add(printBln, new org.netbeans.lib.awtextra.AbsoluteConstraints(165, 199, -1, -1));
 
+        tahun.setForeground(new java.awt.Color(255, 255, 255));
         tahun.setText("2020");
+        getContentPane().add(tahun, new org.netbeans.lib.awtextra.AbsoluteConstraints(195, 199, -1, -1));
 
+        printJam.setForeground(new java.awt.Color(255, 255, 255));
         printJam.setText("-");
+        getContentPane().add(printJam, new org.netbeans.lib.awtextra.AbsoluteConstraints(135, 228, -1, -1));
 
         bKembali.setText("Kembali");
         bKembali.addActionListener(new java.awt.event.ActionListener() {
@@ -126,138 +180,25 @@ public class PrintApp extends javax.swing.JFrame {
                 bKembaliActionPerformed(evt);
             }
         });
+        getContentPane().add(bKembali, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 280, -1, -1));
 
         ketJam.setFont(new java.awt.Font("Tahoma", 0, 11)); // NOI18N
+        ketJam.setForeground(new java.awt.Color(255, 255, 255));
         ketJam.setText("*tiket antrian dicetak pada jam");
+        getContentPane().add(ketJam, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 257, -1, -1));
 
         realTime.setFont(new java.awt.Font("Tahoma", 0, 11)); // NOI18N
+        realTime.setForeground(new java.awt.Color(255, 255, 255));
         realTime.setText("-");
+        getContentPane().add(realTime, new org.netbeans.lib.awtextra.AbsoluteConstraints(172, 257, -1, -1));
 
         printAntrian.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        printAntrian.setForeground(new java.awt.Color(255, 255, 255));
         printAntrian.setText("-");
+        getContentPane().add(printAntrian, new org.netbeans.lib.awtextra.AbsoluteConstraints(227, 16, -1, -1));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(57, 57, 57)
-                .addComponent(bKembali)
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel3)
-                    .addComponent(jLabel2)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(ketJam)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(realTime))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(lbTiket)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(printAntrian))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel4)
-                            .addComponent(jLabel5)
-                            .addComponent(jLabel6)
-                            .addComponent(jLabel7)
-                            .addComponent(jLabel1))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel14)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(printJam))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel12)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(printKeluhan))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel9)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(printAlamat))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel8)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(printJk))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel10)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(printNoid))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel13)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(printTgl)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(slash)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(printBln)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(slash1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(tahun))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel11)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(printNama)))))
-                .addContainerGap(163, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lbTiket)
-                    .addComponent(printAntrian))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel11)
-                    .addComponent(printNama))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel10)
-                    .addComponent(printNoid))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3)
-                    .addComponent(jLabel9)
-                    .addComponent(printAlamat))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel4)
-                    .addComponent(jLabel8)
-                    .addComponent(printJk))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel5)
-                    .addComponent(jLabel12)
-                    .addComponent(printKeluhan))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel6)
-                    .addComponent(jLabel13)
-                    .addComponent(printTgl)
-                    .addComponent(slash)
-                    .addComponent(printBln)
-                    .addComponent(slash1)
-                    .addComponent(tahun))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel7)
-                    .addComponent(jLabel14)
-                    .addComponent(printJam))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(ketJam)
-                    .addComponent(realTime))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 40, Short.MAX_VALUE)
-                .addComponent(bKembali)
-                .addGap(39, 39, 39))
-        );
+        jLabel15.setIcon(new javax.swing.ImageIcon("D:\\Teknik Komputer 2019\\2. TUGAS\\Praktikum DKP\\hitam.png")); // NOI18N
+        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 330));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -310,6 +251,7 @@ public class PrintApp extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;

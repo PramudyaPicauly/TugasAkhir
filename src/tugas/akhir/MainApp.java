@@ -21,7 +21,7 @@ public class MainApp extends javax.swing.JFrame {
      * Creates new form MainApp
      */
     public MainApp() {
-        initComponents();
+        initComponents();   
     }
 
     /**
@@ -68,59 +68,97 @@ public class MainApp extends javax.swing.JFrame {
         colon8 = new javax.swing.JLabel();
         lbAntrian = new javax.swing.JLabel();
         ketTabel = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        lbNama.setForeground(new java.awt.Color(255, 255, 255));
         lbNama.setText("Nama");
+        getContentPane().add(lbNama, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 86, -1, -1));
 
+        colon.setForeground(new java.awt.Color(255, 255, 255));
         colon.setText(":");
+        getContentPane().add(colon, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 86, -1, -1));
 
+        lbNoid.setForeground(new java.awt.Color(255, 255, 255));
         lbNoid.setText("No. ID");
+        getContentPane().add(lbNoid, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 124, -1, -1));
 
+        colon1.setForeground(new java.awt.Color(255, 255, 255));
         colon1.setText(":");
+        getContentPane().add(colon1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 121, -1, -1));
 
         getNama.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 getNamaActionPerformed(evt);
             }
         });
+        getContentPane().add(getNama, new org.netbeans.lib.awtextra.AbsoluteConstraints(141, 83, 230, -1));
 
         getNoid.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 getNoidActionPerformed(evt);
             }
         });
+        getContentPane().add(getNoid, new org.netbeans.lib.awtextra.AbsoluteConstraints(141, 118, 230, -1));
 
+        lbAlamat.setForeground(new java.awt.Color(255, 255, 255));
         lbAlamat.setText("Alamat");
+        getContentPane().add(lbAlamat, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 156, -1, -1));
 
+        colon2.setForeground(new java.awt.Color(255, 255, 255));
         colon2.setText(":");
+        getContentPane().add(colon2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 156, -1, -1));
 
+        lbJeniskelamin.setForeground(new java.awt.Color(255, 255, 255));
         lbJeniskelamin.setText("Jenis Kelamin");
+        getContentPane().add(lbJeniskelamin, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 191, -1, -1));
 
+        colon3.setForeground(new java.awt.Color(255, 255, 255));
         colon3.setText(":");
+        getContentPane().add(colon3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 191, -1, -1));
+        getContentPane().add(inputAlamat, new org.netbeans.lib.awtextra.AbsoluteConstraints(141, 153, 230, -1));
 
         cbJeniskelamin.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--", "Pria", "Wanita", "Belum Diketahui" }));
+        getContentPane().add(cbJeniskelamin, new org.netbeans.lib.awtextra.AbsoluteConstraints(141, 188, -1, -1));
 
+        lbKeluhan.setForeground(new java.awt.Color(255, 255, 255));
         lbKeluhan.setText("Keluhan");
+        getContentPane().add(lbKeluhan, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 226, -1, -1));
 
+        colon4.setForeground(new java.awt.Color(255, 255, 255));
         colon4.setText(":");
+        getContentPane().add(colon4, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 226, -1, -1));
 
         lbIsidata.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        lbIsidata.setForeground(new java.awt.Color(255, 255, 255));
         lbIsidata.setText("Isi Kelengkapan Data :");
+        getContentPane().add(lbIsidata, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 16, -1, -1));
 
+        lbTanggal.setForeground(new java.awt.Color(255, 255, 255));
         lbTanggal.setText("Tanggal");
+        getContentPane().add(lbTanggal, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 261, -1, -1));
 
+        colon5.setForeground(new java.awt.Color(255, 255, 255));
         colon5.setText(":");
+        getContentPane().add(colon5, new org.netbeans.lib.awtextra.AbsoluteConstraints(119, 261, -1, -1));
 
         cbTgl.setMaximumRowCount(31);
         cbTgl.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" }));
+        getContentPane().add(cbTgl, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 258, -1, -1));
 
+        slash.setForeground(new java.awt.Color(255, 255, 255));
         slash.setText("/");
+        getContentPane().add(slash, new org.netbeans.lib.awtextra.AbsoluteConstraints(195, 261, -1, -1));
 
         cbBln.setMaximumRowCount(12);
         cbBln.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" }));
+        getContentPane().add(cbBln, new org.netbeans.lib.awtextra.AbsoluteConstraints(207, 258, -1, -1));
 
+        slash1.setForeground(new java.awt.Color(255, 255, 255));
         slash1.setText("/");
+        getContentPane().add(slash1, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 261, -1, -1));
 
         bDaftar.setText("Daftar");
         bDaftar.addActionListener(new java.awt.event.ActionListener() {
@@ -128,16 +166,27 @@ public class MainApp extends javax.swing.JFrame {
                 bDaftarActionPerformed(evt);
             }
         });
+        getContentPane().add(bDaftar, new org.netbeans.lib.awtextra.AbsoluteConstraints(119, 335, -1, -1));
 
+        lbJampraktek.setForeground(new java.awt.Color(255, 255, 255));
         lbJampraktek.setText("Jam Praktek");
+        getContentPane().add(lbJampraktek, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 296, -1, -1));
 
+        colon6.setForeground(new java.awt.Color(255, 255, 255));
         colon6.setText(":");
+        getContentPane().add(colon6, new org.netbeans.lib.awtextra.AbsoluteConstraints(119, 296, -1, -1));
 
+        tahun.setForeground(new java.awt.Color(255, 255, 255));
         tahun.setText("2020");
+        getContentPane().add(tahun, new org.netbeans.lib.awtextra.AbsoluteConstraints(277, 261, -1, -1));
+        getContentPane().add(inputKeluhan, new org.netbeans.lib.awtextra.AbsoluteConstraints(141, 223, 230, -1));
 
         cbJampraktek.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--", "10.00-12.00", "14.00-16.00", "18.00-20.00" }));
+        getContentPane().add(cbJampraktek, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 293, -1, -1));
 
+        wib.setForeground(new java.awt.Color(255, 255, 255));
         wib.setText("WIB");
+        getContentPane().add(wib, new org.netbeans.lib.awtextra.AbsoluteConstraints(265, 296, -1, -1));
 
         bHapus.setText("Hapus");
         bHapus.addActionListener(new java.awt.event.ActionListener() {
@@ -145,6 +194,7 @@ public class MainApp extends javax.swing.JFrame {
                 bHapusActionPerformed(evt);
             }
         });
+        getContentPane().add(bHapus, new org.netbeans.lib.awtextra.AbsoluteConstraints(203, 335, -1, -1));
 
         tablePasien.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -154,6 +204,7 @@ public class MainApp extends javax.swing.JFrame {
                 "Nomor", "Nama", "No. ID", "Alamat", "Jenis Kelamin", "Keluhan", "Tanggal", "Bulan", "Jam Praktek"
             }
         ));
+        tablePasien.setOpaque(false);
         tablePasien.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 tablePasienMouseClicked(evt);
@@ -161,162 +212,27 @@ public class MainApp extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(tablePasien);
 
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(386, 16, 859, 326));
+
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("No. Antrian");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 54, -1, -1));
 
+        colon8.setForeground(new java.awt.Color(255, 255, 255));
         colon8.setText(":");
+        getContentPane().add(colon8, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 54, -1, -1));
 
+        lbAntrian.setForeground(new java.awt.Color(255, 255, 255));
         lbAntrian.setText("1");
+        getContentPane().add(lbAntrian, new org.netbeans.lib.awtextra.AbsoluteConstraints(144, 54, -1, -1));
 
         ketTabel.setFont(new java.awt.Font("Tahoma", 0, 11)); // NOI18N
+        ketTabel.setForeground(new java.awt.Color(255, 255, 255));
         ketTabel.setText("*klik baris pada tabel untuk mengeprint struk antrian");
+        getContentPane().add(ketTabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(386, 351, -1, -1));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lbIsidata)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel2)
-                        .addGap(23, 23, 23)
-                        .addComponent(colon8)
-                        .addGap(18, 18, 18)
-                        .addComponent(lbAntrian))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(lbTanggal)
-                                .addGap(47, 47, 47))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(lbJampraktek)
-                                .addGap(18, 18, 18)))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(colon5)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(cbTgl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(slash)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(cbBln, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(slash1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(tahun))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(colon6)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(cbJampraktek, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(wib))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(bDaftar)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(bHapus))))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(lbNama, javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(lbJeniskelamin)
-                                    .addComponent(lbAlamat)
-                                    .addComponent(lbNoid)))
-                            .addComponent(lbKeluhan))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(colon2)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(inputAlamat))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(colon3)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(cbJeniskelamin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(colon1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(getNoid))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(colon4)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(inputKeluhan, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(colon)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(getNama, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addGap(15, 15, 15)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 859, Short.MAX_VALUE)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(ketTabel)
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 326, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(ketTabel))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(lbIsidata)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel2)
-                            .addComponent(colon8)
-                            .addComponent(lbAntrian))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(lbNama)
-                            .addComponent(colon)
-                            .addComponent(getNama, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(lbNoid)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(colon1)
-                                .addComponent(getNoid, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(lbAlamat)
-                            .addComponent(colon2)
-                            .addComponent(inputAlamat, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(lbJeniskelamin)
-                            .addComponent(colon3)
-                            .addComponent(cbJeniskelamin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(lbKeluhan)
-                            .addComponent(colon4)
-                            .addComponent(inputKeluhan, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(cbTgl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(colon5)
-                            .addComponent(slash)
-                            .addComponent(cbBln, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(slash1)
-                            .addComponent(tahun)
-                            .addComponent(lbTanggal))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(colon6)
-                            .addComponent(cbJampraktek, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(lbJampraktek)
-                            .addComponent(wib))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(bDaftar)
-                            .addComponent(bHapus))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
+        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\Teknik Komputer 2019\\2. TUGAS\\Praktikum DKP\\Untitled-2.png")); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1260, 410));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -487,6 +403,7 @@ public class MainApp extends javax.swing.JFrame {
     public static javax.swing.JTextField getNoid;
     public static javax.swing.JTextField inputAlamat;
     public static javax.swing.JTextField inputKeluhan;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel ketTabel;

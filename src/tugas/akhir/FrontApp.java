@@ -12,6 +12,7 @@ package tugas.akhir;
 
 import java.util.*;
 import javax.swing.*;
+import javax.swing.table.DefaultTableCellRenderer;
 
 public class FrontApp extends javax.swing.JFrame {
 
@@ -39,26 +40,41 @@ public class FrontApp extends javax.swing.JFrame {
         inputNoid = new javax.swing.JTextField();
         ketNoid = new javax.swing.JLabel();
         bDaftar = new javax.swing.JButton();
+        lJudul1 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lJudul.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        lJudul.setText("SELAMAT DATANG DI RS. TUVWXYZ");
+        lJudul.setForeground(new java.awt.Color(255, 255, 255));
+        lJudul.setText("SELAMAT DATANG DI RUMAH PRAKTEK");
+        getContentPane().add(lJudul, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 120, -1, -1));
 
+        lPendaftaran.setForeground(new java.awt.Color(255, 255, 255));
         lPendaftaran.setText("Pendaftaran :");
+        getContentPane().add(lPendaftaran, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 200, -1, -1));
 
+        jNama.setForeground(new java.awt.Color(255, 255, 255));
         jNama.setText("Nama :");
+        getContentPane().add(jNama, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 240, -1, -1));
 
-        jNoid.setText("No. ID :");
+        jNoid.setForeground(new java.awt.Color(255, 255, 255));
+        jNoid.setText("No. ID:");
+        getContentPane().add(jNoid, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 280, -1, -1));
 
         inputNama.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 inputNamaActionPerformed(evt);
             }
         });
+        getContentPane().add(inputNama, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 240, 200, -1));
+        getContentPane().add(inputNoid, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 280, 200, -1));
 
         ketNoid.setFont(new java.awt.Font("Tahoma", 0, 11)); // NOI18N
+        ketNoid.setForeground(new java.awt.Color(255, 255, 255));
         ketNoid.setText("*No. ID dapat menggunakan BPJS, Kartu Member, KTP dsb.");
+        getContentPane().add(ketNoid, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 320, -1, -1));
 
         bDaftar.setText("Masuk");
         bDaftar.addActionListener(new java.awt.event.ActionListener() {
@@ -66,51 +82,15 @@ public class FrontApp extends javax.swing.JFrame {
                 bDaftarActionPerformed(evt);
             }
         });
+        getContentPane().add(bDaftar, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 280, -1, -1));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(10, 10, 10)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lJudul)
-                    .addComponent(lPendaftaran)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jNama)
-                        .addGap(18, 18, 18)
-                        .addComponent(inputNama, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jNoid)
-                        .addGap(12, 12, 12)
-                        .addComponent(inputNoid, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(20, 20, 20)
-                        .addComponent(bDaftar))
-                    .addComponent(ketNoid))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(10, 10, 10)
-                .addComponent(lJudul)
-                .addGap(18, 18, 18)
-                .addComponent(lPendaftaran)
-                .addGap(20, 20, 20)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jNama)
-                    .addComponent(inputNama, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(14, 14, 14)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(10, 10, 10)
-                        .addComponent(jNoid))
-                    .addComponent(inputNoid, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(bDaftar))
-                .addGap(20, 20, 20)
-                .addComponent(ketNoid)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
+        lJudul1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        lJudul1.setForeground(new java.awt.Color(255, 255, 255));
+        lJudul1.setText("DR. STRANGE");
+        getContentPane().add(lJudul1, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 160, -1, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\Teknik Komputer 2019\\2. TUGAS\\Praktikum DKP\\Untitled-1.png")); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 911, 550));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -175,12 +155,14 @@ public class FrontApp extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton bDaftar;
-    private javax.swing.JTextField inputNama;
-    private javax.swing.JTextField inputNoid;
+    public static javax.swing.JTextField inputNama;
+    public static javax.swing.JTextField inputNoid;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jNama;
     private javax.swing.JLabel jNoid;
     private javax.swing.JLabel ketNoid;
     private javax.swing.JLabel lJudul;
+    private javax.swing.JLabel lJudul1;
     private javax.swing.JLabel lPendaftaran;
     // End of variables declaration//GEN-END:variables
 }
